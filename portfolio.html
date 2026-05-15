@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Maison Vow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Maison Vow</a>
+    <button class="nav-toggle" aria-label="Open navigation">☰</button>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="nav-cta">Inquire</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-hero reveal">
+      <p class="eyebrow">Design portfolio</p>
+      <h1>Invitation suites inspired by place, palette, and celebration.</h1>
+    </section>
+
+    <section class="filter-bar reveal">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="custom">Custom</button>
+      <button class="filter" data-filter="semi">Semi-Custom</button>
+    </section>
+
+    <section class="portfolio-grid section-pad">
+      <article class="portfolio-item reveal" data-category="custom">
+        <div class="portfolio-art blush">Garden Estate</div>
+        <h3>Garden Estate</h3>
+        <p>Custom suite with botanical illustration and letterpress texture.</p>
+      </article>
+      <article class="portfolio-item reveal" data-category="semi">
+        <div class="portfolio-art cream">Old World</div>
+        <h3>Old World Romance</h3>
+        <p>Semi-custom suite with script lettering and deckled paper.</p>
+      </article>
+      <article class="portfolio-item reveal" data-category="custom">
+        <div class="portfolio-art blue">Coastal Weekend</div>
+        <h3>Coastal Weekend</h3>
+        <p>Custom suite with watercolor map, blue envelope, and wax seal.</p>
+      </article>
+      <article class="portfolio-item reveal" data-category="semi">
+        <div class="portfolio-art sage">Modern Vineyard</div>
+        <h3>Modern Vineyard</h3>
+        <p>Semi-custom suite with modern typography and muted green palette.</p>
+      </article>
+      <article class="portfolio-item reveal" data-category="custom">
+        <div class="portfolio-art taupe">City Soirée</div>
+        <h3>City Soirée</h3>
+        <p>Custom black-tie stationery with venue sketch and foil accents.</p>
+      </article>
+      <article class="portfolio-item reveal" data-category="semi">
+        <div class="portfolio-art rose">Spring Chapel</div>
+        <h3>Spring Chapel</h3>
+        <p>Semi-custom invitation suite with airy spacing and rose tones.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span class="year"></span> Maison Vow. Wedding stationery design.</p>
+    <a href="contact.html">Start your suite</a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

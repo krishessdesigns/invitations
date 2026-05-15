@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Maison Vow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Maison Vow</a>
+    <button class="nav-toggle" aria-label="Open navigation">☰</button>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="nav-cta">Inquire</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-hero reveal">
+      <p class="eyebrow">Contact</p>
+      <h1>Tell me about your wedding stationery vision.</h1>
+      <p>Share your date, venue, guest count, and what kind of invitation experience you’re interested in.</p>
+    </section>
+
+    <section class="contact-layout section-pad">
+      <form class="contact-form reveal">
+        <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+        <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+        <label>Wedding Date<input type="text" name="date" placeholder="Month / Day / Year"></label>
+        <label>Service Interest
+          <select name="service">
+            <option>Custom Stationery</option>
+            <option>Semi-Custom Stationery</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>Message<textarea name="message" rows="6" placeholder="Tell me about your celebration"></textarea></label>
+        <button class="btn primary" type="submit">Send Inquiry</button>
+        <p class="form-note"></p>
+      </form>
+      <aside class="contact-card reveal delay-1">
+        <h2>Studio hours</h2>
+        <p>Monday–Thursday<br>10:00 AM–4:00 PM</p>
+        <h2>Email</h2>
+        <p>hello@maisonvow.com</p>
+        <h2>Based in</h2>
+        <p>Available for celebrations worldwide.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span class="year"></span> Maison Vow. Wedding stationery design.</p>
+    <a href="contact.html">Start your suite</a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

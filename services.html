@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Maison Vow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Maison Vow</a>
+    <button class="nav-toggle" aria-label="Open navigation">☰</button>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="nav-cta">Inquire</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-hero reveal">
+      <p class="eyebrow">Services</p>
+      <h1>Choose the invitation experience that fits your timeline and vision.</h1>
+    </section>
+
+    <section id="custom" class="service-band reveal">
+      <div>
+        <p class="eyebrow">Fully bespoke</p>
+        <h2>Custom Stationery</h2>
+        <p>For couples who want a one-of-a-kind invitation suite designed from the ground up.</p>
+      </div>
+      <ul>
+        <li>Creative direction and moodboard</li>
+        <li>Custom invitation, details card, RSVP, and envelope design</li>
+        <li>Optional monograms, venue illustrations, maps, wax seals, and ribbon</li>
+        <li>Print coordination and production-ready files</li>
+      </ul>
+    </section>
+
+    <section id="semi-custom" class="section-pad reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Pre-designed suites</p>
+        <h2>Semi-Custom Stationery</h2>
+        <p>Select a template and personalize the wording, colors, print method, and finishing details.</p>
+      </div>
+      <div class="template-grid">
+        <article class="template-card" data-suite="The Isabella Suite">
+          <div class="suite-preview blush">Isabella</div>
+          <h3>The Isabella Suite</h3>
+          <p>Romantic serif typography with garden-inspired details.</p>
+          <button class="btn small choose-suite">Choose Suite</button>
+        </article>
+        <article class="template-card" data-suite="The Marais Suite">
+          <div class="suite-preview cream">Marais</div>
+          <h3>The Marais Suite</h3>
+          <p>Old-world elegance with refined borders and script accents.</p>
+          <button class="btn small choose-suite">Choose Suite</button>
+        </article>
+        <article class="template-card" data-suite="The Harbor Suite">
+          <div class="suite-preview blue">Harbor</div>
+          <h3>The Harbor Suite</h3>
+          <p>Clean coastal stationery with soft blue and ivory tones.</p>
+          <button class="btn small choose-suite">Choose Suite</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section-pad reveal">
+      <h2>The process</h2>
+      <ol>
+        <li><span>01</span> Inquiry and consultation</li>
+        <li><span>02</span> Design concept or template selection</li>
+        <li><span>03</span> Proofing and refinements</li>
+        <li><span>04</span> Print preparation and delivery</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span class="year"></span> Maison Vow. Wedding stationery design.</p>
+    <a href="contact.html">Start your suite</a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
